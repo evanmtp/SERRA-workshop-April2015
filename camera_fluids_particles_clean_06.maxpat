@@ -1700,7 +1700,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 660.0, 60.0, 50.0, 20.0 ],
+					"patching_rect" : [ 530.0, 75.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 675.0, 40.0, 50.0, 20.0 ],
 					"saved_object_attributes" : 					{
@@ -1717,48 +1717,6 @@
 					}
 ,
 					"text" : "p audio"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-51",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 635.0, 10.0, 127.0, 18.0 ],
-					"text" : "r matrix_and_output_bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-47",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 560.0, -10.0, 37.0, 18.0 ],
-					"text" : "open"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-31",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 530.0, 45.0, 60.0, 20.0 ],
-					"text" : "jit.qt.grab"
 				}
 
 			}
@@ -3118,19 +3076,6 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 270.0, 120.0, 59.0, 20.0 ],
 					"text" : "jit.brcosa"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 75.0, 76.0, 20.0 ],
-					"text" : "s camera_in"
 				}
 
 			}
@@ -14314,33 +14259,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -14388,7 +14306,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-43", 1 ]
@@ -14401,15 +14319,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -14457,15 +14366,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-50", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -14633,14 +14533,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "jmod.o4.fluids%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.fluids%.ui.panel.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -14654,126 +14554,126 @@
 , 			{
 				"name" : "tml.ejm.bilogscaler.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.ui.panel.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.particlemesh.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.initialPositions.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.noisefield.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.normals.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.scalewrap.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.figurative.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mxr.v.scalewrap.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/o4.asu_utils",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/o4.asu_utils",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/o4.asu_utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.cc.brcosa%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.cc.brcosa%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.bloom%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.bloom%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.tp.slide%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.tp.slide%.maxpat",
 				"bootpath" : "/Users/serra/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
-				"patcherrelativepath" : "../../Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
+				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
