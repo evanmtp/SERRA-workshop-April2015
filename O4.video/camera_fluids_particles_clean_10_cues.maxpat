@@ -29,77 +29,6 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "brcosa%" ],
-					"id" : "obj-61",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.gl.cc.brcosa%.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 885.0, 600.0, 150.0, 175.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 820.0, 567.0, 150.0, 175.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-60",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 560.0, 20.0, 61.0, 18.0 ],
-					"text" : "visible $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-58",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 480.0, 40.0, 106.0, 20.0 ],
-					"text" : "jit.window monitor"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-47",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 380.0, 20.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 800.0, 10.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 15.0, 54.0, 20.0 ],
-					"text" : "gate 1 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
@@ -4712,7 +4641,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 995.0, 900.0, 120.0, 20.0 ],
+					"patching_rect" : [ 1020.0, 675.0, 120.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -5392,7 +5321,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 630.0, 375.0, 32.5, 18.0 ],
+									"patching_rect" : [ 630.0, 375.0, 50.0, 18.0 ],
 									"text" : "1."
 								}
 
@@ -5972,13 +5901,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.934731,
 									"id" : "obj-233",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 240.0, 225.0, 105.0, 60.0 ],
-									"text" : "jit.gl.render toc @erase_color 0. 0. 0. 1. @camera 0. 0. 1.1"
+									"patching_rect" : [ 240.0, 225.0, 90.0, 46.0 ],
+									"text" : "jit.gl.render toc @erase_color 0. 0. 0. 1."
 								}
 
 							}
@@ -8762,7 +8691,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 860.0, 990.0, 548.0, 19.0 ],
+					"patching_rect" : [ 885.0, 765.0, 548.0, 19.0 ],
 					"text" : "jit.gl.videoplane toc @transform_reset 2 @blend_enable 1 @enable 1 @capture vidout @color 1. 1. 1. 1."
 				}
 
@@ -15070,7 +14999,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 995.0, 945.0, 150.0, 20.0 ]
+					"patching_rect" : [ 1020.0, 720.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -15095,9 +15024,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 1 ],
+					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 1025.5, 570.0, 1029.5, 570.0 ],
 					"source" : [ "obj-110", 1 ]
 				}
 
@@ -15143,15 +15073,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -15164,7 +15085,7 @@
 					"destination" : [ "obj-175", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 966.5, 210.0, 867.0, 210.0, 867.0, 570.0, 869.5, 570.0 ],
+					"midpoints" : [ 966.5, 210.0, 867.0, 210.0, 867.0, 570.0, 894.5, 570.0 ],
 					"source" : [ "obj-177", 0 ]
 				}
 
@@ -15447,15 +15368,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -15477,7 +15389,7 @@
 					"destination" : [ "obj-175", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1004.5, 975.0, 869.5, 975.0 ],
+					"midpoints" : [ 1029.5, 750.0, 894.5, 750.0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -15496,7 +15408,7 @@
 					"destination" : [ "obj-175", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1004.5, 930.0, 869.5, 930.0 ],
+					"midpoints" : [ 1029.5, 705.0, 894.5, 705.0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -15512,28 +15424,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-42", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1190.5, 660.0, 1080.25, 660.0 ],
+					"midpoints" : [ 1190.5, 660.0, 1105.25, 660.0 ],
 					"source" : [ "obj-48", 1 ]
 				}
 
@@ -15543,7 +15437,7 @@
 					"destination" : [ "obj-42", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1074.5, 660.0, 1029.75, 660.0 ],
+					"midpoints" : [ 1074.5, 660.0, 1054.75, 660.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -15589,7 +15483,7 @@
 					"destination" : [ "obj-42", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1265.5, 660.0, 1055.0, 660.0 ],
+					"midpoints" : [ 1265.5, 660.0, 1080.0, 660.0 ],
 					"source" : [ "obj-54", 1 ]
 				}
 
@@ -15599,7 +15493,7 @@
 					"destination" : [ "obj-42", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1224.5, 660.0, 1105.5, 660.0 ],
+					"midpoints" : [ 1224.5, 660.0, 1130.5, 660.0 ],
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -15621,25 +15515,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 1059.5, 285.0, 870.0, 285.0, 870.0, 417.0, 894.5, 417.0 ],
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 1025.5, 885.0, 1004.5, 885.0 ],
-					"source" : [ "obj-61", 1 ]
 				}
 
 			}
@@ -15827,189 +15702,189 @@
  ],
 		"parameters" : 		{
 			"obj-4::obj-53" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-119" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-53" : [ "live.tab[1]", "live.tab", 0 ]
+			"obj-53" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-119" : [ "live.tab[2]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jmod.o4.fluids%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.fluids%.ui.panel.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tml.ejm.bilogscaler.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.ui.panel.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.particlemesh.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.initialPositions.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.noisefield.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.normals.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.scalewrap.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.figurative.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "./Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mxr.v.scalewrap.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/o4.asu_utils",
-				"patcherrelativepath" : "./O4.video/o4.asu_utils",
+				"patcherrelativepath" : "./o4.asu_utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.cc.brcosa%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
+				"patcherrelativepath" : "./Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.cc.brcosa%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
+				"patcherrelativepath" : "./Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.bloom%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.bloom%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jamoma_shaders/jmod.gl.bloom%",
+				"patcherrelativepath" : "./Dependencies/jamoma_shaders/jmod.gl.bloom%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.bloom%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.bloom%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jamoma_shaders/jmod.gl.bloom%",
+				"patcherrelativepath" : "./Dependencies/jamoma_shaders/jmod.gl.bloom%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.tp.slide%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
+				"patcherrelativepath" : "./Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.tp.slide%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
+				"patcherrelativepath" : "./Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.orsize%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.orsize%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.pwindow.mouse.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/pwindow.mouse",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/pwindow.mouse",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/pwindow.mouse",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syphonclient%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.syphonclient%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.syphonclient%",
+				"patcherrelativepath" : "./Dependencies/jmod.syphonclient%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.syphonclient%.maxpat",
 				"bootpath" : "/Users/serra/Github/SERRA-workshop-April2015/O4.video/Dependencies/jmod.syphonclient%",
-				"patcherrelativepath" : "./O4.video/Dependencies/jmod.syphonclient%",
+				"patcherrelativepath" : "./Dependencies/jmod.syphonclient%",
 				"type" : "JSON",
 				"implicit" : 1
 			}

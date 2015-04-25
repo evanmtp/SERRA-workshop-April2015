@@ -241,7 +241,7 @@
     <item name='layer0/enable' type='generic' priority='0' mixweight='1'>1</item>
     <item name='layer0/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
     <item name='layer0/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='layer0/meshDim' type='decimalArray' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer0/meshDim' type='decimalArray' priority='0' mixweight='1'>11.000000 1.000000 </item>
     <item name='layer0/point_size' type='decimal' priority='0' mixweight='1'>2.000000</item>
     <item name='layer0/position' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 </item>
     <item name='layer0/scale' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
@@ -253,7 +253,7 @@
     <item name='layer1/enable' type='generic' priority='0' mixweight='1'>1</item>
     <item name='layer1/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
     <item name='layer1/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='layer1/meshDim' type='decimalArray' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer1/meshDim' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 </item>
     <item name='layer1/point_size' type='decimal' priority='0' mixweight='1'>0.100000</item>
     <item name='layer1/position' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 </item>
     <item name='layer1/scale' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
@@ -265,7 +265,7 @@
     <item name='layer2/enable' type='generic' priority='0' mixweight='1'>1</item>
     <item name='layer2/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
     <item name='layer2/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='layer2/meshDim' type='decimalArray' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer2/meshDim' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 </item>
     <item name='layer2/point_size' type='decimal' priority='0' mixweight='1'>6.000000</item>
     <item name='layer2/position' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 </item>
     <item name='layer2/scale' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
@@ -277,7 +277,7 @@
     <item name='layer3/enable' type='generic' priority='0' mixweight='1'>1</item>
     <item name='layer3/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
     <item name='layer3/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='layer3/meshDim' type='decimalArray' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer3/meshDim' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 </item>
     <item name='layer3/point_size' type='decimal' priority='0' mixweight='1'>4.000000</item>
     <item name='layer3/position' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 </item>
     <item name='layer3/scale' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
@@ -301,7 +301,7 @@
     <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/preview' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
   </preset>
 </jamoma>

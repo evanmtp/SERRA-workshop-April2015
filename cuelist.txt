@@ -1,0 +1,1181 @@
+
+ 
+ KEYCUE "Fluids, no background" 
+ 
+ 
+ 	 	 	 	 /CONFIG /presets 99 1 /brcosa%bg 99 1 /slide% 99 1 /math% 99 1 /master% 99 1 /5D input 99 1 /resize_and_rotate_fluids% 99 1 /slide 99 1 /bloom 99 1 /background% 99 1 /particleFlow% 99 1 /o4.fluids 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /presets 
+ 	 	 	 	 /presets/view/freeze 0 
+ 	 	 	 	 /presets/view/highlight 0 
+ # 
+ # Module /brcosa%bg 
+ 	 	 	 	 /brcosa%bg/alpha 0.000000 
+ 	 	 	 	 /brcosa%bg/avgluma 0.000000 
+ 	 	 	 	 /brcosa%bg/brightness 1.000000 
+ 	 	 	 	 /brcosa%bg/contrast 1.000000 
+ 	 	 	 	 /brcosa%bg/destination node 
+ 	 	 	 	 /brcosa%bg/image 0.000000 
+ 	 	 	 	 /brcosa%bg/saturation 1.000000 
+ 	 	 	 	 /brcosa%bg/video/bypass 0 
+ 	 	 	 	 /brcosa%bg/video/freeze 0 
+ 	 	 	 	 /brcosa%bg/video/mute 0 
+ 	 	 	 	 /brcosa%bg/video/preview 0 
+ 	 	 	 	 /brcosa%bg/view/freeze 1 
+ 	 	 	 	 /brcosa%bg/view/highlight 0 
+ # 
+ # Module /slide% 
+ 	 	 	 	 /slide%/destination node 
+ 	 	 	 	 /slide%/slide_down 20.000000 
+ 	 	 	 	 /slide%/slide_up 20.000000 
+ 	 	 	 	 /slide%/video/bypass 0 
+ 	 	 	 	 /slide%/video/freeze 0 
+ 	 	 	 	 /slide%/video/mute 0 
+ 	 	 	 	 /slide%/video/preview 0 
+ 	 	 	 	 /slide%/view/freeze 0 
+ 	 	 	 	 /slide%/view/highlight 0 
+ # 
+ # Module /math% 
+ 	 	 	 	 /math%/asdf 0.000000 
+ 	 	 	 	 /math%/destination node 
+ 	 	 	 	 /math%/in2offset 0.000000 
+ 	 	 	 	 /math%/in2scale 2.000000 
+ 	 	 	 	 /math%/inoffset 0.000000 
+ 	 	 	 	 /math%/inscale 1.000000 
+ 	 	 	 	 /math%/op 3 
+ 	 	 	 	 /math%/outoffset 0.000000 
+ 	 	 	 	 /math%/outscale 4.000000 
+ 	 	 	 	 /math%/video/bypass 0 
+ 	 	 	 	 /math%/video/freeze 0 
+ 	 	 	 	 /math%/video/mute 0 
+ 	 	 	 	 /math%/video/preview 0 
+ 	 	 	 	 /math%/view/freeze 0 
+ 	 	 	 	 /math%/view/highlight none 
+ # 
+ # Module /master% 
+ 	 	 	 	 /master%/alpha 1.000000 
+ 	 	 	 	 /master%/avgluma 0.000000 
+ 	 	 	 	 /master%/brightness 1.000000 
+ 	 	 	 	 /master%/contrast 1.000000 
+ 	 	 	 	 /master%/destination toc 
+ 	 	 	 	 /master%/image 0.000000 
+ 	 	 	 	 /master%/saturation 1.000000 
+ 	 	 	 	 /master%/video/bypass 0 
+ 	 	 	 	 /master%/video/freeze 0 
+ 	 	 	 	 /master%/video/mute 0 
+ 	 	 	 	 /master%/video/preview 0 
+ 	 	 	 	 /master%/view/freeze 1 
+ 	 	 	 	 /master%/view/highlight 0 
+ # 
+ # Module /5D input 
+ # 
+ # Module /resize_and_rotate_fluids% 
+ 	 	 	 	 /resize_and_rotate_fluids%/angle 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/boundmode clip 
+ 	 	 	 	 /resize_and_rotate_fluids%/mirror 1 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetX 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetY 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate1 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate2 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/bypass 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/mute 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/preview 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/highlight 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomX 1.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomY 1.000000 
+ # 
+ # Module /slide 
+ 	 	 	 	 /slide/destination toc 
+ 	 	 	 	 /slide/slide_down 0.000000 
+ 	 	 	 	 /slide/slide_up 0.000000 
+ 	 	 	 	 /slide/video/bypass 1 
+ 	 	 	 	 /slide/video/freeze 0 
+ 	 	 	 	 /slide/video/mute 0 
+ 	 	 	 	 /slide/video/preview 0 
+ 	 	 	 	 /slide/view/freeze 0 
+ 	 	 	 	 /slide/view/highlight 0 
+ # 
+ # Module /bloom 
+ 	 	 	 	 /bloom/destination toc 
+ 	 	 	 	 /bloom/video/bypass 1 
+ 	 	 	 	 /bloom/video/freeze 0 
+ 	 	 	 	 /bloom/video/mute 0 
+ 	 	 	 	 /bloom/video/preview 0 
+ 	 	 	 	 /bloom/view/freeze 0 
+ 	 	 	 	 /bloom/view/highlight 0 
+ 	 	 	 	 /bloom/x/blur 1.000000 
+ 	 	 	 	 /bloom/x/gain 2.000000 
+ 	 	 	 	 /bloom/y/blur 1.000000 
+ 	 	 	 	 /bloom/y/gain 2.000000 
+ # 
+ # Module /background% 
+ 	 	 	 	 /background%/alpha 1.000000 
+ 	 	 	 	 /background%/avgluma 1.000000 
+ 	 	 	 	 /background%/brightness 40.000000 
+ 	 	 	 	 /background%/contrast 1.000000 
+ 	 	 	 	 /background%/destination toc 
+ 	 	 	 	 /background%/image 0.000000 
+ 	 	 	 	 /background%/saturation 1.000000 
+ 	 	 	 	 /background%/video/bypass 0 
+ 	 	 	 	 /background%/video/freeze 0 
+ 	 	 	 	 /background%/video/mute 0 
+ 	 	 	 	 /background%/video/preview 0 
+ 	 	 	 	 /background%/view/freeze 1 
+ 	 	 	 	 /background%/view/highlight 0 
+ # 
+ # Module /particleFlow% 
+ 	 	 	 	 /particleFlow%/attraction 0.100000 0.100000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/attractionVel 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/destination node 
+ 	 	 	 	 /particleFlow%/inputGain 40.000000 
+ 	 	 	 	 /particleFlow%/inputSlideDown 1.000000 
+ 	 	 	 	 /particleFlow%/inputSlideUp 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer0/enable 1 
+ 	 	 	 	 /particleFlow%/layer0/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer0/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/meshDim 2.000000 2.000000 
+ 	 	 	 	 /particleFlow%/layer0/point_size 2.000000 
+ 	 	 	 	 /particleFlow%/layer0/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texName none 
+ 	 	 	 	 /particleFlow%/layer0/texOut 1 
+ 	 	 	 	 /particleFlow%/layer1/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer1/enable 1 
+ 	 	 	 	 /particleFlow%/layer1/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer1/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/meshDim 256.000000 144.000000 
+ 	 	 	 	 /particleFlow%/layer1/point_size 2.000000 
+ 	 	 	 	 /particleFlow%/layer1/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texName none 
+ 	 	 	 	 /particleFlow%/layer1/texOut 1 
+ 	 	 	 	 /particleFlow%/layer2/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer2/enable 1 
+ 	 	 	 	 /particleFlow%/layer2/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer2/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/meshDim 256.000000 144.000000 
+ 	 	 	 	 /particleFlow%/layer2/point_size 2.000000 
+ 	 	 	 	 /particleFlow%/layer2/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texName none 
+ 	 	 	 	 /particleFlow%/layer2/texOut 1 
+ 	 	 	 	 /particleFlow%/layer3/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer3/enable 1 
+ 	 	 	 	 /particleFlow%/layer3/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer3/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/meshDim 256.000000 144.000000 
+ 	 	 	 	 /particleFlow%/layer3/point_size 2.000000 
+ 	 	 	 	 /particleFlow%/layer3/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texName none 
+ 	 	 	 	 /particleFlow%/layer3/texOut 1 
+ 	 	 	 	 /particleFlow%/maxDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/maxMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/modAmount 0.000000 
+ 	 	 	 	 /particleFlow%/modInvert 0.010000 
+ 	 	 	 	 /particleFlow%/modOp pass 
+ 	 	 	 	 /particleFlow%/modThreshold 0.300000 
+ 	 	 	 	 /particleFlow%/reread 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/res 245.000000 144.000000 
+ 	 	 	 	 /particleFlow%/reset 0 
+ 	 	 	 	 /particleFlow%/respawn 50.000000 100.000000 150.000000 200.000000 
+ 	 	 	 	 /particleFlow%/scaler 0.000000 
+ 	 	 	 	 /particleFlow%/speed 0.110000 0.100000 0.150000 0.200000 
+ 	 	 	 	 /particleFlow%/video/bypass 0 
+ 	 	 	 	 /particleFlow%/video/mute 0 
+ 	 	 	 	 /particleFlow%/video/preview 0 
+ 	 	 	 	 /particleFlow%/view/freeze 0 
+ 	 	 	 	 /particleFlow%/view/highlight 0 
+ # 
+ # Module /o4.fluids 
+ 	 	 	 	 /o4.fluids/densityBlend 0.950000 
+ 	 	 	 	 /o4.fluids/densityFade 1.000000 
+ 	 	 	 	 /o4.fluids/densityScale 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp addition 
+ 	 	 	 	 /o4.fluids/gravityAngle 0.000000 
+ 	 	 	 	 /o4.fluids/gravityMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/reset 0 
+ 	 	 	 	 /o4.fluids/temperatureMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/timestep 2.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 1.000000 
+ 	 	 	 	 /o4.fluids/velocityFade 0.980000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityOutHeight 240 
+ 	 	 	 	 /o4.fluids/velocityOutWidth 320 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/video/bypass 0 
+ 	 	 	 	 /o4.fluids/video/mute 0 
+ 	 	 	 	 /o4.fluids/video/preview 1 
+ 	 	 	 	 /o4.fluids/view/freeze 0 
+ 	 	 	 	 /o4.fluids/view/highlight 0 
+ 	 	 	 	 /o4.fluids/viscosity 1.000000 
+ 	 	 	 	 /o4.fluids/vorticity 0.000000 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Fluids, background" 
+ 
+ 
+ 	 	 	 	 /CONFIG /presets 99 1 /brcosa%bg 99 1 /slide% 99 1 /math% 99 1 /master% 99 1 /5D input 99 1 /resize_and_rotate_fluids% 99 1 /slide 99 1 /bloom 99 1 /background% 99 1 /particleFlow% 99 1 /o4.fluids 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /presets 
+ 	 	 	 	 /presets/view/freeze 0 
+ 	 	 	 	 /presets/view/highlight 0 
+ # 
+ # Module /brcosa%bg 
+ 	 	 	 	 /brcosa%bg/alpha 0.000000 
+ 	 	 	 	 /brcosa%bg/avgluma 0.000000 
+ 	 	 	 	 /brcosa%bg/brightness 1.000000 
+ 	 	 	 	 /brcosa%bg/contrast 1.000000 
+ 	 	 	 	 /brcosa%bg/destination node 
+ 	 	 	 	 /brcosa%bg/image 0.000000 
+ 	 	 	 	 /brcosa%bg/saturation 1.000000 
+ 	 	 	 	 /brcosa%bg/video/bypass 1 
+ 	 	 	 	 /brcosa%bg/video/freeze 0 
+ 	 	 	 	 /brcosa%bg/video/mute 0 
+ 	 	 	 	 /brcosa%bg/video/preview 0 
+ 	 	 	 	 /brcosa%bg/view/freeze 1 
+ 	 	 	 	 /brcosa%bg/view/highlight 0 
+ # 
+ # Module /slide% 
+ 	 	 	 	 /slide%/destination node 
+ 	 	 	 	 /slide%/slide_down 20.000000 
+ 	 	 	 	 /slide%/slide_up 20.000000 
+ 	 	 	 	 /slide%/video/bypass 1 
+ 	 	 	 	 /slide%/video/freeze 0 
+ 	 	 	 	 /slide%/video/mute 0 
+ 	 	 	 	 /slide%/video/preview 0 
+ 	 	 	 	 /slide%/view/freeze 0 
+ 	 	 	 	 /slide%/view/highlight 0 
+ # 
+ # Module /math% 
+ 	 	 	 	 /math%/asdf 0.000000 
+ 	 	 	 	 /math%/destination node 
+ 	 	 	 	 /math%/in2offset 0.000000 
+ 	 	 	 	 /math%/in2scale 2.000000 
+ 	 	 	 	 /math%/inoffset 0.000000 
+ 	 	 	 	 /math%/inscale 1.000000 
+ 	 	 	 	 /math%/op 3 
+ 	 	 	 	 /math%/outoffset 0.000000 
+ 	 	 	 	 /math%/outscale 4.000000 
+ 	 	 	 	 /math%/video/bypass 1 
+ 	 	 	 	 /math%/video/freeze 0 
+ 	 	 	 	 /math%/video/mute 0 
+ 	 	 	 	 /math%/video/preview 0 
+ 	 	 	 	 /math%/view/freeze 0 
+ 	 	 	 	 /math%/view/highlight none 
+ # 
+ # Module /master% 
+ 	 	 	 	 /master%/alpha 1.000000 
+ 	 	 	 	 /master%/avgluma 1.000000 
+ 	 	 	 	 /master%/brightness 2.000000 
+ 	 	 	 	 /master%/contrast 1.000000 
+ 	 	 	 	 /master%/destination toc 
+ 	 	 	 	 /master%/image 0.000000 
+ 	 	 	 	 /master%/saturation 1.000000 
+ 	 	 	 	 /master%/video/bypass 0 
+ 	 	 	 	 /master%/video/freeze 0 
+ 	 	 	 	 /master%/video/mute 0 
+ 	 	 	 	 /master%/video/preview 0 
+ 	 	 	 	 /master%/view/freeze 1 
+ 	 	 	 	 /master%/view/highlight 0 
+ # 
+ # Module /5D input 
+ # 
+ # Module /resize_and_rotate_fluids% 
+ 	 	 	 	 /resize_and_rotate_fluids%/angle 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/boundmode clip 
+ 	 	 	 	 /resize_and_rotate_fluids%/mirror 1 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetX 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetY 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate1 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate2 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/bypass 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/mute 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/preview 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/highlight 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomX 1.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomY 1.000000 
+ # 
+ # Module /slide 
+ 	 	 	 	 /slide/destination toc 
+ 	 	 	 	 /slide/slide_down 0.000000 
+ 	 	 	 	 /slide/slide_up 0.000000 
+ 	 	 	 	 /slide/video/bypass 1 
+ 	 	 	 	 /slide/video/freeze 0 
+ 	 	 	 	 /slide/video/mute 0 
+ 	 	 	 	 /slide/video/preview 0 
+ 	 	 	 	 /slide/view/freeze 0 
+ 	 	 	 	 /slide/view/highlight 0 
+ # 
+ # Module /bloom 
+ 	 	 	 	 /bloom/destination toc 
+ 	 	 	 	 /bloom/video/bypass 1 
+ 	 	 	 	 /bloom/video/freeze 0 
+ 	 	 	 	 /bloom/video/mute 0 
+ 	 	 	 	 /bloom/video/preview 0 
+ 	 	 	 	 /bloom/view/freeze 0 
+ 	 	 	 	 /bloom/view/highlight 0 
+ 	 	 	 	 /bloom/x/blur 1.000000 
+ 	 	 	 	 /bloom/x/gain 2.000000 
+ 	 	 	 	 /bloom/y/blur 1.000000 
+ 	 	 	 	 /bloom/y/gain 2.000000 
+ # 
+ # Module /background% 
+ 	 	 	 	 /background%/alpha 1.000000 
+ 	 	 	 	 /background%/avgluma 1.000000 
+ 	 	 	 	 /background%/brightness 2.000000 
+ 	 	 	 	 /background%/contrast 1.000000 
+ 	 	 	 	 /background%/destination node 
+ 	 	 	 	 /background%/image 0.000000 
+ 	 	 	 	 /background%/saturation 1.000000 
+ 	 	 	 	 /background%/video/bypass 0 
+ 	 	 	 	 /background%/video/freeze 0 
+ 	 	 	 	 /background%/video/mute 0 
+ 	 	 	 	 /background%/video/preview 0 
+ 	 	 	 	 /background%/view/freeze 1 
+ 	 	 	 	 /background%/view/highlight 0 
+ # 
+ # Module /particleFlow% 
+ 	 	 	 	 /particleFlow%/attraction 0.100000 0.100000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/attractionVel 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/destination node 
+ 	 	 	 	 /particleFlow%/inputGain 40.000000 
+ 	 	 	 	 /particleFlow%/inputSlideDown 1.000000 
+ 	 	 	 	 /particleFlow%/inputSlideUp 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer0/enable 1 
+ 	 	 	 	 /particleFlow%/layer0/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer0/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/meshDim 2.000000 2.000000 
+ 	 	 	 	 /particleFlow%/layer0/point_size 2.000000 
+ 	 	 	 	 /particleFlow%/layer0/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texName none 
+ 	 	 	 	 /particleFlow%/layer0/texOut 1 
+ 	 	 	 	 /particleFlow%/layer1/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer1/enable 1 
+ 	 	 	 	 /particleFlow%/layer1/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer1/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/meshDim 256.000000 144.000000 
+ 	 	 	 	 /particleFlow%/layer1/point_size 2.000000 
+ 	 	 	 	 /particleFlow%/layer1/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texName none 
+ 	 	 	 	 /particleFlow%/layer1/texOut 1 
+ 	 	 	 	 /particleFlow%/layer2/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer2/enable 1 
+ 	 	 	 	 /particleFlow%/layer2/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer2/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/meshDim 256.000000 144.000000 
+ 	 	 	 	 /particleFlow%/layer2/point_size 2.000000 
+ 	 	 	 	 /particleFlow%/layer2/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texName none 
+ 	 	 	 	 /particleFlow%/layer2/texOut 1 
+ 	 	 	 	 /particleFlow%/layer3/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer3/enable 1 
+ 	 	 	 	 /particleFlow%/layer3/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer3/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/meshDim 256.000000 144.000000 
+ 	 	 	 	 /particleFlow%/layer3/point_size 2.000000 
+ 	 	 	 	 /particleFlow%/layer3/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texName none 
+ 	 	 	 	 /particleFlow%/layer3/texOut 1 
+ 	 	 	 	 /particleFlow%/maxDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/maxMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/modAmount 0.000000 
+ 	 	 	 	 /particleFlow%/modInvert 0.010000 
+ 	 	 	 	 /particleFlow%/modOp pass 
+ 	 	 	 	 /particleFlow%/modThreshold 0.300000 
+ 	 	 	 	 /particleFlow%/reread 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/res 245.000000 144.000000 
+ 	 	 	 	 /particleFlow%/reset 0 
+ 	 	 	 	 /particleFlow%/respawn 50.000000 100.000000 150.000000 200.000000 
+ 	 	 	 	 /particleFlow%/scaler 0.000000 
+ 	 	 	 	 /particleFlow%/speed 0.110000 0.100000 0.150000 0.200000 
+ 	 	 	 	 /particleFlow%/video/bypass 0 
+ 	 	 	 	 /particleFlow%/video/mute 0 
+ 	 	 	 	 /particleFlow%/video/preview 0 
+ 	 	 	 	 /particleFlow%/view/freeze 0 
+ 	 	 	 	 /particleFlow%/view/highlight 0 
+ # 
+ # Module /o4.fluids 
+ 	 	 	 	 /o4.fluids/densityBlend 0.950000 
+ 	 	 	 	 /o4.fluids/densityFade 1.000000 
+ 	 	 	 	 /o4.fluids/densityScale 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp addition 
+ 	 	 	 	 /o4.fluids/gravityAngle 0.000000 
+ 	 	 	 	 /o4.fluids/gravityMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/reset 0 
+ 	 	 	 	 /o4.fluids/temperatureMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/timestep 2.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 1.000000 
+ 	 	 	 	 /o4.fluids/velocityFade 0.980000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityOutHeight 120 
+ 	 	 	 	 /o4.fluids/velocityOutWidth 160 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/video/bypass 0 
+ 	 	 	 	 /o4.fluids/video/mute 0 
+ 	 	 	 	 /o4.fluids/video/preview 1 
+ 	 	 	 	 /o4.fluids/view/freeze 0 
+ 	 	 	 	 /o4.fluids/view/highlight 0 
+ 	 	 	 	 /o4.fluids/viscosity 1.000000 
+ 	 	 	 	 /o4.fluids/vorticity 0.000000 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Runners, tight grid" 
+ 
+ 
+ 	 	 	 	 /CONFIG /presets 99 1 /brcosa%bg 99 1 /slide% 99 1 /math% 99 1 /master% 99 1 /5D input 99 1 /resize_and_rotate_fluids% 99 1 /slide 99 1 /bloom 99 1 /background% 99 1 /particleFlow% 99 1 /o4.fluids 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /presets 
+ 	 	 	 	 /presets/view/freeze 0 
+ 	 	 	 	 /presets/view/highlight 0 
+ # 
+ # Module /brcosa%bg 
+ 	 	 	 	 /brcosa%bg/alpha 0.000000 
+ 	 	 	 	 /brcosa%bg/avgluma 0.000000 
+ 	 	 	 	 /brcosa%bg/brightness 1.000000 
+ 	 	 	 	 /brcosa%bg/contrast 1.000000 
+ 	 	 	 	 /brcosa%bg/destination node 
+ 	 	 	 	 /brcosa%bg/image 0.000000 
+ 	 	 	 	 /brcosa%bg/saturation 1.000000 
+ 	 	 	 	 /brcosa%bg/video/bypass 1 
+ 	 	 	 	 /brcosa%bg/video/freeze 0 
+ 	 	 	 	 /brcosa%bg/video/mute 0 
+ 	 	 	 	 /brcosa%bg/video/preview 0 
+ 	 	 	 	 /brcosa%bg/view/freeze 1 
+ 	 	 	 	 /brcosa%bg/view/highlight 0 
+ # 
+ # Module /slide% 
+ 	 	 	 	 /slide%/destination node 
+ 	 	 	 	 /slide%/slide_down 20.000000 
+ 	 	 	 	 /slide%/slide_up 20.000000 
+ 	 	 	 	 /slide%/video/bypass 1 
+ 	 	 	 	 /slide%/video/freeze 0 
+ 	 	 	 	 /slide%/video/mute 0 
+ 	 	 	 	 /slide%/video/preview 0 
+ 	 	 	 	 /slide%/view/freeze 0 
+ 	 	 	 	 /slide%/view/highlight 0 
+ # 
+ # Module /math% 
+ 	 	 	 	 /math%/asdf 0.000000 
+ 	 	 	 	 /math%/destination node 
+ 	 	 	 	 /math%/in2offset 0.000000 
+ 	 	 	 	 /math%/in2scale 2.000000 
+ 	 	 	 	 /math%/inoffset 0.000000 
+ 	 	 	 	 /math%/inscale 1.000000 
+ 	 	 	 	 /math%/op 3 
+ 	 	 	 	 /math%/outoffset 0.000000 
+ 	 	 	 	 /math%/outscale 4.000000 
+ 	 	 	 	 /math%/video/bypass 1 
+ 	 	 	 	 /math%/video/freeze 0 
+ 	 	 	 	 /math%/video/mute 0 
+ 	 	 	 	 /math%/video/preview 0 
+ 	 	 	 	 /math%/view/freeze 0 
+ 	 	 	 	 /math%/view/highlight none 
+ # 
+ # Module /master% 
+ 	 	 	 	 /master%/alpha 1.000000 
+ 	 	 	 	 /master%/avgluma 0.000000 
+ 	 	 	 	 /master%/brightness 10.000000 
+ 	 	 	 	 /master%/contrast 1.000000 
+ 	 	 	 	 /master%/destination toc 
+ 	 	 	 	 /master%/image 0.000000 
+ 	 	 	 	 /master%/saturation 1.000000 
+ 	 	 	 	 /master%/video/bypass 0 
+ 	 	 	 	 /master%/video/freeze 0 
+ 	 	 	 	 /master%/video/mute 0 
+ 	 	 	 	 /master%/video/preview 0 
+ 	 	 	 	 /master%/view/freeze 1 
+ 	 	 	 	 /master%/view/highlight 0 
+ # 
+ # Module /5D input 
+ # 
+ # Module /resize_and_rotate_fluids% 
+ 	 	 	 	 /resize_and_rotate_fluids%/angle 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/boundmode clip 
+ 	 	 	 	 /resize_and_rotate_fluids%/mirror 1 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetX 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetY 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate1 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate2 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/bypass 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/mute 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/preview 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/highlight 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomX 1.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomY 1.000000 
+ # 
+ # Module /slide 
+ 	 	 	 	 /slide/destination toc 
+ 	 	 	 	 /slide/slide_down 0.000000 
+ 	 	 	 	 /slide/slide_up 0.000000 
+ 	 	 	 	 /slide/video/bypass 1 
+ 	 	 	 	 /slide/video/freeze 0 
+ 	 	 	 	 /slide/video/mute 0 
+ 	 	 	 	 /slide/video/preview 0 
+ 	 	 	 	 /slide/view/freeze 0 
+ 	 	 	 	 /slide/view/highlight 0 
+ # 
+ # Module /bloom 
+ 	 	 	 	 /bloom/destination toc 
+ 	 	 	 	 /bloom/video/bypass 1 
+ 	 	 	 	 /bloom/video/freeze 0 
+ 	 	 	 	 /bloom/video/mute 0 
+ 	 	 	 	 /bloom/video/preview 0 
+ 	 	 	 	 /bloom/view/freeze 0 
+ 	 	 	 	 /bloom/view/highlight 0 
+ 	 	 	 	 /bloom/x/blur 1.000000 
+ 	 	 	 	 /bloom/x/gain 2.000000 
+ 	 	 	 	 /bloom/y/blur 1.000000 
+ 	 	 	 	 /bloom/y/gain 2.000000 
+ # 
+ # Module /background% 
+ 	 	 	 	 /background%/alpha 1.000000 
+ 	 	 	 	 /background%/avgluma 1.000000 
+ 	 	 	 	 /background%/brightness 0.000000 
+ 	 	 	 	 /background%/contrast 1.000000 
+ 	 	 	 	 /background%/destination toc 
+ 	 	 	 	 /background%/image 0.000000 
+ 	 	 	 	 /background%/saturation 1.000000 
+ 	 	 	 	 /background%/video/bypass 0 
+ 	 	 	 	 /background%/video/freeze 0 
+ 	 	 	 	 /background%/video/mute 0 
+ 	 	 	 	 /background%/video/preview 0 
+ 	 	 	 	 /background%/view/freeze 1 
+ 	 	 	 	 /background%/view/highlight 0 
+ # 
+ # Module /particleFlow% 
+ 	 	 	 	 /particleFlow%/attraction 0.400000 0.100000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/attractionVel 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/destination node 
+ 	 	 	 	 /particleFlow%/inputGain 40.000000 
+ 	 	 	 	 /particleFlow%/inputSlideDown 1.000000 
+ 	 	 	 	 /particleFlow%/inputSlideUp 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/color 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/layer0/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer0/enable 1 
+ 	 	 	 	 /particleFlow%/layer0/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer0/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/meshDim 100.000000 100.000000 
+ 	 	 	 	 /particleFlow%/layer0/point_size 10.000000 
+ 	 	 	 	 /particleFlow%/layer0/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texName none 
+ 	 	 	 	 /particleFlow%/layer0/texOut 1 
+ 	 	 	 	 /particleFlow%/layer1/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer1/enable 1 
+ 	 	 	 	 /particleFlow%/layer1/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer1/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/meshDim 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/layer1/point_size 0.500000 
+ 	 	 	 	 /particleFlow%/layer1/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texName none 
+ 	 	 	 	 /particleFlow%/layer1/texOut 1 
+ 	 	 	 	 /particleFlow%/layer2/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer2/enable 1 
+ 	 	 	 	 /particleFlow%/layer2/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer2/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/meshDim 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/layer2/point_size 0.300000 
+ 	 	 	 	 /particleFlow%/layer2/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texName none 
+ 	 	 	 	 /particleFlow%/layer2/texOut 1 
+ 	 	 	 	 /particleFlow%/layer3/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer3/enable 1 
+ 	 	 	 	 /particleFlow%/layer3/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer3/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/meshDim 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/layer3/point_size 0.100000 
+ 	 	 	 	 /particleFlow%/layer3/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texName none 
+ 	 	 	 	 /particleFlow%/layer3/texOut 1 
+ 	 	 	 	 /particleFlow%/maxDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/maxMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/modAmount 0.000000 
+ 	 	 	 	 /particleFlow%/modInvert 0.010000 
+ 	 	 	 	 /particleFlow%/modOp pass 
+ 	 	 	 	 /particleFlow%/modThreshold 0.300000 
+ 	 	 	 	 /particleFlow%/reread 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/res 245.000000 144.000000 
+ 	 	 	 	 /particleFlow%/reset 0 
+ 	 	 	 	 /particleFlow%/respawn 50.000000 100.000000 150.000000 200.000000 
+ 	 	 	 	 /particleFlow%/scaler 0.000000 
+ 	 	 	 	 /particleFlow%/speed 0.110000 0.100000 0.150000 0.200000 
+ 	 	 	 	 /particleFlow%/video/bypass 0 
+ 	 	 	 	 /particleFlow%/video/mute 0 
+ 	 	 	 	 /particleFlow%/video/preview 0 
+ 	 	 	 	 /particleFlow%/view/freeze 0 
+ 	 	 	 	 /particleFlow%/view/highlight 0 
+ # 
+ # Module /o4.fluids 
+ 	 	 	 	 /o4.fluids/densityBlend 0.950000 
+ 	 	 	 	 /o4.fluids/densityFade 1.000000 
+ 	 	 	 	 /o4.fluids/densityScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp addition 
+ 	 	 	 	 /o4.fluids/gravityAngle 0.000000 
+ 	 	 	 	 /o4.fluids/gravityMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/reset 0 
+ 	 	 	 	 /o4.fluids/temperatureMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/timestep 2.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 1.000000 
+ 	 	 	 	 /o4.fluids/velocityFade 0.800000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityOutHeight 120 
+ 	 	 	 	 /o4.fluids/velocityOutWidth 160 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/video/bypass 0 
+ 	 	 	 	 /o4.fluids/video/mute 0 
+ 	 	 	 	 /o4.fluids/video/preview 1 
+ 	 	 	 	 /o4.fluids/view/freeze 0 
+ 	 	 	 	 /o4.fluids/view/highlight 0 
+ 	 	 	 	 /o4.fluids/viscosity 1.000000 
+ 	 	 	 	 /o4.fluids/vorticity 0.000000 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Runners, loose grid" 
+ 
+ 
+ 	 	 	 	 /CONFIG /presets 99 1 /brcosa%bg 99 1 /slide% 99 1 /math% 99 1 /master% 99 1 /5D input 99 1 /resize_and_rotate_fluids% 99 1 /slide 99 1 /bloom 99 1 /background% 99 1 /particleFlow% 99 1 /o4.fluids 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /presets 
+ 	 	 	 	 /presets/view/freeze 0 
+ 	 	 	 	 /presets/view/highlight 0 
+ # 
+ # Module /brcosa%bg 
+ 	 	 	 	 /brcosa%bg/alpha 0.000000 
+ 	 	 	 	 /brcosa%bg/avgluma 0.000000 
+ 	 	 	 	 /brcosa%bg/brightness 1.000000 
+ 	 	 	 	 /brcosa%bg/contrast 1.000000 
+ 	 	 	 	 /brcosa%bg/destination node 
+ 	 	 	 	 /brcosa%bg/image 0.000000 
+ 	 	 	 	 /brcosa%bg/saturation 1.000000 
+ 	 	 	 	 /brcosa%bg/video/bypass 1 
+ 	 	 	 	 /brcosa%bg/video/freeze 0 
+ 	 	 	 	 /brcosa%bg/video/mute 0 
+ 	 	 	 	 /brcosa%bg/video/preview 0 
+ 	 	 	 	 /brcosa%bg/view/freeze 1 
+ 	 	 	 	 /brcosa%bg/view/highlight 0 
+ # 
+ # Module /slide% 
+ 	 	 	 	 /slide%/destination node 
+ 	 	 	 	 /slide%/slide_down 20.000000 
+ 	 	 	 	 /slide%/slide_up 20.000000 
+ 	 	 	 	 /slide%/video/bypass 1 
+ 	 	 	 	 /slide%/video/freeze 0 
+ 	 	 	 	 /slide%/video/mute 0 
+ 	 	 	 	 /slide%/video/preview 0 
+ 	 	 	 	 /slide%/view/freeze 0 
+ 	 	 	 	 /slide%/view/highlight 0 
+ # 
+ # Module /math% 
+ 	 	 	 	 /math%/asdf 0.000000 
+ 	 	 	 	 /math%/destination node 
+ 	 	 	 	 /math%/in2offset 0.000000 
+ 	 	 	 	 /math%/in2scale 2.000000 
+ 	 	 	 	 /math%/inoffset 0.000000 
+ 	 	 	 	 /math%/inscale 1.000000 
+ 	 	 	 	 /math%/op 3 
+ 	 	 	 	 /math%/outoffset 0.000000 
+ 	 	 	 	 /math%/outscale 4.000000 
+ 	 	 	 	 /math%/video/bypass 1 
+ 	 	 	 	 /math%/video/freeze 0 
+ 	 	 	 	 /math%/video/mute 0 
+ 	 	 	 	 /math%/video/preview 0 
+ 	 	 	 	 /math%/view/freeze 0 
+ 	 	 	 	 /math%/view/highlight none 
+ # 
+ # Module /master% 
+ 	 	 	 	 /master%/alpha 1.000000 
+ 	 	 	 	 /master%/avgluma 0.000000 
+ 	 	 	 	 /master%/brightness 10.000000 
+ 	 	 	 	 /master%/contrast 1.000000 
+ 	 	 	 	 /master%/destination node 
+ 	 	 	 	 /master%/image 0.000000 
+ 	 	 	 	 /master%/saturation 1.000000 
+ 	 	 	 	 /master%/video/bypass 0 
+ 	 	 	 	 /master%/video/freeze 0 
+ 	 	 	 	 /master%/video/mute 0 
+ 	 	 	 	 /master%/video/preview 0 
+ 	 	 	 	 /master%/view/freeze 1 
+ 	 	 	 	 /master%/view/highlight 0 
+ # 
+ # Module /5D input 
+ # 
+ # Module /resize_and_rotate_fluids% 
+ 	 	 	 	 /resize_and_rotate_fluids%/angle 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/boundmode clip 
+ 	 	 	 	 /resize_and_rotate_fluids%/mirror 1 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetX 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetY 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate1 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate2 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/bypass 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/mute 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/preview 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/highlight 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomX 1.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomY 1.000000 
+ # 
+ # Module /slide 
+ 	 	 	 	 /slide/destination toc 
+ 	 	 	 	 /slide/slide_down 0.000000 
+ 	 	 	 	 /slide/slide_up 0.000000 
+ 	 	 	 	 /slide/video/bypass 1 
+ 	 	 	 	 /slide/video/freeze 0 
+ 	 	 	 	 /slide/video/mute 0 
+ 	 	 	 	 /slide/video/preview 0 
+ 	 	 	 	 /slide/view/freeze 0 
+ 	 	 	 	 /slide/view/highlight 0 
+ # 
+ # Module /bloom 
+ 	 	 	 	 /bloom/destination toc 
+ 	 	 	 	 /bloom/video/bypass 1 
+ 	 	 	 	 /bloom/video/freeze 0 
+ 	 	 	 	 /bloom/video/mute 0 
+ 	 	 	 	 /bloom/video/preview 0 
+ 	 	 	 	 /bloom/view/freeze 0 
+ 	 	 	 	 /bloom/view/highlight 0 
+ 	 	 	 	 /bloom/x/blur 1.000000 
+ 	 	 	 	 /bloom/x/gain 2.000000 
+ 	 	 	 	 /bloom/y/blur 1.000000 
+ 	 	 	 	 /bloom/y/gain 2.000000 
+ # 
+ # Module /background% 
+ 	 	 	 	 /background%/alpha 1.000000 
+ 	 	 	 	 /background%/avgluma 1.000000 
+ 	 	 	 	 /background%/brightness 10.000000 
+ 	 	 	 	 /background%/contrast 1.000000 
+ 	 	 	 	 /background%/destination toc 
+ 	 	 	 	 /background%/image 0.000000 
+ 	 	 	 	 /background%/saturation 1.000000 
+ 	 	 	 	 /background%/video/bypass 0 
+ 	 	 	 	 /background%/video/freeze 0 
+ 	 	 	 	 /background%/video/mute 0 
+ 	 	 	 	 /background%/video/preview 0 
+ 	 	 	 	 /background%/view/freeze 1 
+ 	 	 	 	 /background%/view/highlight 0 
+ # 
+ # Module /particleFlow% 
+ 	 	 	 	 /particleFlow%/attraction 0.200000 0.100000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/attractionVel 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/destination node 
+ 	 	 	 	 /particleFlow%/inputGain 40.000000 
+ 	 	 	 	 /particleFlow%/inputSlideDown 1.000000 
+ 	 	 	 	 /particleFlow%/inputSlideUp 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/color 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/layer0/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer0/enable 1 
+ 	 	 	 	 /particleFlow%/layer0/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer0/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/meshDim 100.000000 100.000000 
+ 	 	 	 	 /particleFlow%/layer0/point_size 10.000000 
+ 	 	 	 	 /particleFlow%/layer0/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texName none 
+ 	 	 	 	 /particleFlow%/layer0/texOut 1 
+ 	 	 	 	 /particleFlow%/layer1/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer1/enable 1 
+ 	 	 	 	 /particleFlow%/layer1/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer1/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/meshDim 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/layer1/point_size 0.500000 
+ 	 	 	 	 /particleFlow%/layer1/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texName none 
+ 	 	 	 	 /particleFlow%/layer1/texOut 1 
+ 	 	 	 	 /particleFlow%/layer2/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer2/enable 1 
+ 	 	 	 	 /particleFlow%/layer2/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer2/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/meshDim 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/layer2/point_size 0.300000 
+ 	 	 	 	 /particleFlow%/layer2/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texName none 
+ 	 	 	 	 /particleFlow%/layer2/texOut 1 
+ 	 	 	 	 /particleFlow%/layer3/color 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer3/enable 1 
+ 	 	 	 	 /particleFlow%/layer3/initialPositions 1 
+ 	 	 	 	 /particleFlow%/layer3/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/meshDim 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/layer3/point_size 0.100000 
+ 	 	 	 	 /particleFlow%/layer3/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texName none 
+ 	 	 	 	 /particleFlow%/layer3/texOut 1 
+ 	 	 	 	 /particleFlow%/maxDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/maxMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/modAmount 0.000000 
+ 	 	 	 	 /particleFlow%/modInvert 0.010000 
+ 	 	 	 	 /particleFlow%/modOp pass 
+ 	 	 	 	 /particleFlow%/modThreshold 0.300000 
+ 	 	 	 	 /particleFlow%/reread 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/res 245.000000 144.000000 
+ 	 	 	 	 /particleFlow%/reset 0 
+ 	 	 	 	 /particleFlow%/respawn 50.000000 100.000000 150.000000 200.000000 
+ 	 	 	 	 /particleFlow%/scaler 0.000000 
+ 	 	 	 	 /particleFlow%/speed 0.110000 0.100000 0.150000 0.200000 
+ 	 	 	 	 /particleFlow%/video/bypass 0 
+ 	 	 	 	 /particleFlow%/video/mute 0 
+ 	 	 	 	 /particleFlow%/video/preview 0 
+ 	 	 	 	 /particleFlow%/view/freeze 0 
+ 	 	 	 	 /particleFlow%/view/highlight 0 
+ # 
+ # Module /o4.fluids 
+ 	 	 	 	 /o4.fluids/densityBlend 0.950000 
+ 	 	 	 	 /o4.fluids/densityFade 1.000000 
+ 	 	 	 	 /o4.fluids/densityScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp addition 
+ 	 	 	 	 /o4.fluids/gravityAngle 0.000000 
+ 	 	 	 	 /o4.fluids/gravityMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/reset 0 
+ 	 	 	 	 /o4.fluids/temperatureMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/timestep 2.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 1.000000 
+ 	 	 	 	 /o4.fluids/velocityFade 0.800000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityOutHeight 120 
+ 	 	 	 	 /o4.fluids/velocityOutWidth 160 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/video/bypass 0 
+ 	 	 	 	 /o4.fluids/video/mute 0 
+ 	 	 	 	 /o4.fluids/video/preview 1 
+ 	 	 	 	 /o4.fluids/view/freeze 0 
+ 	 	 	 	 /o4.fluids/view/highlight 0 
+ 	 	 	 	 /o4.fluids/viscosity 1.000000 
+ 	 	 	 	 /o4.fluids/vorticity 0.000000 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Dust" 
+ 
+ 
+ 	 	 	 	 /CONFIG /presets 99 1 /brcosa%bg 99 1 /slide% 99 1 /math% 99 1 /master% 99 1 /5D input 99 1 /resize_and_rotate_fluids% 99 1 /slide 99 1 /bloom 99 1 /background% 99 1 /particleFlow% 99 1 /o4.fluids 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /presets 
+ 	 	 	 	 /presets/view/freeze 0 
+ 	 	 	 	 /presets/view/highlight 0 
+ # 
+ # Module /brcosa%bg 
+ 	 	 	 	 /brcosa%bg/alpha 0.000000 
+ 	 	 	 	 /brcosa%bg/avgluma 0.000000 
+ 	 	 	 	 /brcosa%bg/brightness 1.000000 
+ 	 	 	 	 /brcosa%bg/contrast 1.000000 
+ 	 	 	 	 /brcosa%bg/destination node 
+ 	 	 	 	 /brcosa%bg/image 0.000000 
+ 	 	 	 	 /brcosa%bg/saturation 1.000000 
+ 	 	 	 	 /brcosa%bg/video/bypass 0 
+ 	 	 	 	 /brcosa%bg/video/freeze 0 
+ 	 	 	 	 /brcosa%bg/video/mute 0 
+ 	 	 	 	 /brcosa%bg/video/preview 0 
+ 	 	 	 	 /brcosa%bg/view/freeze 1 
+ 	 	 	 	 /brcosa%bg/view/highlight 0 
+ # 
+ # Module /slide% 
+ 	 	 	 	 /slide%/destination node 
+ 	 	 	 	 /slide%/slide_down 20.000000 
+ 	 	 	 	 /slide%/slide_up 20.000000 
+ 	 	 	 	 /slide%/video/bypass 0 
+ 	 	 	 	 /slide%/video/freeze 0 
+ 	 	 	 	 /slide%/video/mute 0 
+ 	 	 	 	 /slide%/video/preview 0 
+ 	 	 	 	 /slide%/view/freeze 0 
+ 	 	 	 	 /slide%/view/highlight 0 
+ # 
+ # Module /math% 
+ 	 	 	 	 /math%/asdf 0.000000 
+ 	 	 	 	 /math%/destination node 
+ 	 	 	 	 /math%/in2offset 0.000000 
+ 	 	 	 	 /math%/in2scale 2.000000 
+ 	 	 	 	 /math%/inoffset 0.000000 
+ 	 	 	 	 /math%/inscale 1.000000 
+ 	 	 	 	 /math%/op 3 
+ 	 	 	 	 /math%/outoffset 0.000000 
+ 	 	 	 	 /math%/outscale 4.000000 
+ 	 	 	 	 /math%/video/bypass 0 
+ 	 	 	 	 /math%/video/freeze 0 
+ 	 	 	 	 /math%/video/mute 0 
+ 	 	 	 	 /math%/video/preview 0 
+ 	 	 	 	 /math%/view/freeze 0 
+ 	 	 	 	 /math%/view/highlight none 
+ # 
+ # Module /master% 
+ 	 	 	 	 /master%/alpha 1.000000 
+ 	 	 	 	 /master%/avgluma 0.000000 
+ 	 	 	 	 /master%/brightness 1.000000 
+ 	 	 	 	 /master%/contrast 1.000000 
+ 	 	 	 	 /master%/destination node 
+ 	 	 	 	 /master%/image 0.000000 
+ 	 	 	 	 /master%/saturation 1.000000 
+ 	 	 	 	 /master%/video/bypass 0 
+ 	 	 	 	 /master%/video/freeze 0 
+ 	 	 	 	 /master%/video/mute 0 
+ 	 	 	 	 /master%/video/preview 0 
+ 	 	 	 	 /master%/view/freeze 1 
+ 	 	 	 	 /master%/view/highlight 0 
+ # 
+ # Module /5D input 
+ # 
+ # Module /resize_and_rotate_fluids% 
+ 	 	 	 	 /resize_and_rotate_fluids%/angle 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/boundmode clip 
+ 	 	 	 	 /resize_and_rotate_fluids%/mirror 1 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetX 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/offsetY 0.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate1 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/rotate2 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/bypass 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/mute 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/video/preview 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/freeze 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/view/highlight 0 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomX 1.000000 
+ 	 	 	 	 /resize_and_rotate_fluids%/zoomY 1.000000 
+ # 
+ # Module /slide 
+ 	 	 	 	 /slide/destination toc 
+ 	 	 	 	 /slide/slide_down 0.000000 
+ 	 	 	 	 /slide/slide_up 0.000000 
+ 	 	 	 	 /slide/video/bypass 1 
+ 	 	 	 	 /slide/video/freeze 0 
+ 	 	 	 	 /slide/video/mute 0 
+ 	 	 	 	 /slide/video/preview 0 
+ 	 	 	 	 /slide/view/freeze 0 
+ 	 	 	 	 /slide/view/highlight 0 
+ # 
+ # Module /bloom 
+ 	 	 	 	 /bloom/destination toc 
+ 	 	 	 	 /bloom/video/bypass 0 
+ 	 	 	 	 /bloom/video/freeze 0 
+ 	 	 	 	 /bloom/video/mute 0 
+ 	 	 	 	 /bloom/video/preview 0 
+ 	 	 	 	 /bloom/view/freeze 0 
+ 	 	 	 	 /bloom/view/highlight 0 
+ 	 	 	 	 /bloom/x/blur 2.000000 
+ 	 	 	 	 /bloom/x/gain 1.000000 
+ 	 	 	 	 /bloom/y/blur 2.000000 
+ 	 	 	 	 /bloom/y/gain 1.000000 
+ # 
+ # Module /background% 
+ 	 	 	 	 /background%/alpha 1.000000 
+ 	 	 	 	 /background%/avgluma 1.000000 
+ 	 	 	 	 /background%/brightness 10.000000 
+ 	 	 	 	 /background%/contrast 1.000000 
+ 	 	 	 	 /background%/destination toc 
+ 	 	 	 	 /background%/image 0.000000 
+ 	 	 	 	 /background%/saturation 1.000000 
+ 	 	 	 	 /background%/video/bypass 0 
+ 	 	 	 	 /background%/video/freeze 0 
+ 	 	 	 	 /background%/video/mute 0 
+ 	 	 	 	 /background%/video/preview 0 
+ 	 	 	 	 /background%/view/freeze 1 
+ 	 	 	 	 /background%/view/highlight 0 
+ # 
+ # Module /particleFlow% 
+ 	 	 	 	 /particleFlow%/attraction 0.010000 0.010000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/attractionVel 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/destination node 
+ 	 	 	 	 /particleFlow%/inputGain 40.000000 
+ 	 	 	 	 /particleFlow%/inputSlideDown 1.000000 
+ 	 	 	 	 /particleFlow%/inputSlideUp 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/color 1.000000 1.000000 1.000000 0.397260 
+ 	 	 	 	 /particleFlow%/layer0/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer0/enable 1 
+ 	 	 	 	 /particleFlow%/layer0/initialPositions 0 
+ 	 	 	 	 /particleFlow%/layer0/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/meshDim 200.000000 200.000000 
+ 	 	 	 	 /particleFlow%/layer0/point_size 8.000000 
+ 	 	 	 	 /particleFlow%/layer0/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer0/texName none 
+ 	 	 	 	 /particleFlow%/layer0/texOut 1 
+ 	 	 	 	 /particleFlow%/layer1/color 1.000000 1.000000 1.000000 0.164384 
+ 	 	 	 	 /particleFlow%/layer1/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer1/enable 1 
+ 	 	 	 	 /particleFlow%/layer1/initialPositions 0 
+ 	 	 	 	 /particleFlow%/layer1/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/meshDim 200.000000 200.000000 
+ 	 	 	 	 /particleFlow%/layer1/point_size 6.000000 
+ 	 	 	 	 /particleFlow%/layer1/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer1/texName none 
+ 	 	 	 	 /particleFlow%/layer1/texOut 1 
+ 	 	 	 	 /particleFlow%/layer2/color 0.866667 0.866667 0.866667 0.178082 
+ 	 	 	 	 /particleFlow%/layer2/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer2/enable 1 
+ 	 	 	 	 /particleFlow%/layer2/initialPositions 0 
+ 	 	 	 	 /particleFlow%/layer2/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/meshDim 200.000000 200.000000 
+ 	 	 	 	 /particleFlow%/layer2/point_size 4.000000 
+ 	 	 	 	 /particleFlow%/layer2/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer2/texName none 
+ 	 	 	 	 /particleFlow%/layer2/texOut 1 
+ 	 	 	 	 /particleFlow%/layer3/color 1.000000 1.000000 1.000000 0.136986 
+ 	 	 	 	 /particleFlow%/layer3/draw_mode 2 
+ 	 	 	 	 /particleFlow%/layer3/enable 1 
+ 	 	 	 	 /particleFlow%/layer3/initialPositions 0 
+ 	 	 	 	 /particleFlow%/layer3/line_width 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/meshDim 200.000000 200.000000 
+ 	 	 	 	 /particleFlow%/layer3/point_size 2.000000 
+ 	 	 	 	 /particleFlow%/layer3/position 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/scale 1.000000 1.000000 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texDisplace 0.000000 
+ 	 	 	 	 /particleFlow%/layer3/texName none 
+ 	 	 	 	 /particleFlow%/layer3/texOut 1 
+ 	 	 	 	 /particleFlow%/maxDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/maxMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minDampening 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/minMass 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /particleFlow%/modAmount 0.000000 
+ 	 	 	 	 /particleFlow%/modInvert 0.010000 
+ 	 	 	 	 /particleFlow%/modOp pass 
+ 	 	 	 	 /particleFlow%/modThreshold 0.300000 
+ 	 	 	 	 /particleFlow%/reread 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /particleFlow%/res 245.000000 144.000000 
+ 	 	 	 	 /particleFlow%/reset 0 
+ 	 	 	 	 /particleFlow%/respawn 50.000000 100.000000 150.000000 200.000000 
+ 	 	 	 	 /particleFlow%/scaler 0.000000 
+ 	 	 	 	 /particleFlow%/speed 0.110000 0.100000 0.150000 0.200000 
+ 	 	 	 	 /particleFlow%/video/bypass 0 
+ 	 	 	 	 /particleFlow%/video/mute 0 
+ 	 	 	 	 /particleFlow%/video/preview 0 
+ 	 	 	 	 /particleFlow%/view/freeze 0 
+ 	 	 	 	 /particleFlow%/view/highlight 0 
+ # 
+ # Module /o4.fluids 
+ 	 	 	 	 /o4.fluids/densityBlend 0.950000 
+ 	 	 	 	 /o4.fluids/densityFade 1.000000 
+ 	 	 	 	 /o4.fluids/densityScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp addition 
+ 	 	 	 	 /o4.fluids/gravityAngle 0.000000 
+ 	 	 	 	 /o4.fluids/gravityMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/reset 0 
+ 	 	 	 	 /o4.fluids/temperatureMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/timestep 2.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 1.000000 
+ 	 	 	 	 /o4.fluids/velocityFade 0.980000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityOutHeight 120 
+ 	 	 	 	 /o4.fluids/velocityOutWidth 160 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/video/bypass 0 
+ 	 	 	 	 /o4.fluids/video/mute 0 
+ 	 	 	 	 /o4.fluids/video/preview 1 
+ 	 	 	 	 /o4.fluids/view/freeze 0 
+ 	 	 	 	 /o4.fluids/view/highlight 0 
+ 	 	 	 	 /o4.fluids/viscosity 1.000000 
+ 	 	 	 	 /o4.fluids/vorticity 0.000000 
+ # 
+ ######################## 
+ 
+ 
