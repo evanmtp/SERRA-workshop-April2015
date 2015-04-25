@@ -45,7 +45,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1577.0, -914.0, 767.0, 803.0 ],
+						"rect" : [ 1577.0, -914.0, 254.0, 285.0 ],
 						"openrect" : [ 0.0, 0.0, 254.0, 285.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -6757,7 +6757,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1577.0, -914.0, 944.0, 823.0 ],
+						"rect" : [ 1577.0, -914.0, 581.0, 822.0 ],
 						"openrect" : [ 0.0, 0.0, 254.0, 285.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -6803,7 +6803,6 @@
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 300.0, 750.0, 177.0, 51.0 ],
-									"presentation_rect" : [ 205.0, 743.0, 0.0, 0.0 ],
 									"setminmax" : [ 20.0, 5000.0 ],
 									"settype" : 0,
 									"size" : 24,
@@ -7555,8 +7554,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 233.0, 913.0, 82.0, 20.0 ],
-									"text" : "loadmess 0.2"
+									"patching_rect" : [ 540.0, 915.0, 75.0, 20.0 ],
+									"text" : "loadmess 0."
 								}
 
 							}
@@ -11853,7 +11852,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1905.0, -739.0, 815.0, 616.0 ],
+						"rect" : [ 1905.0, -739.0, 254.0, 285.0 ],
 						"openrect" : [ 0.0, 0.0, 254.0, 285.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
