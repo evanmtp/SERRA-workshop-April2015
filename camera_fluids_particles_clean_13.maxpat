@@ -92,7 +92,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1577.0, -914.0, 650.0, 712.0 ],
+						"rect" : [ 1577.0, -914.0, 254.0, 285.0 ],
 						"openrect" : [ 0.0, 0.0, 254.0, 285.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -2811,7 +2811,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -16209,9 +16208,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-119" : [ "live.tab[2]", "live.tab[1]", 0 ],
+			"obj-53" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-4::obj-53" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-53" : [ "live.tab[1]", "live.tab", 0 ]
+			"obj-119" : [ "live.tab[2]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -16230,8 +16229,8 @@
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../Applications/Max6/Cycling '74/Jamoma/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16363,22 +16362,22 @@
 			}
 , 			{
 				"name" : "jmod.orsize%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.orsize%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.pwindow.mouse.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/pwindow.mouse",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/pwindow.mouse",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/pwindow.mouse",
+				"patcherrelativepath" : "../../../../Applications/Max6/Cycling '74/Jamoma/library/components/pwindow.mouse",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16412,15 +16411,15 @@
 			}
 , 			{
 				"name" : "jmod.cueManager.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/control/cueManager",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/cueManager",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/control/cueManager",
+				"patcherrelativepath" : "../../../../Applications/Max6/Cycling '74/Jamoma/modules/control/cueManager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/initialized",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/initialized",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/initialized",
+				"patcherrelativepath" : "../../../../Applications/Max6/Cycling '74/Jamoma/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
