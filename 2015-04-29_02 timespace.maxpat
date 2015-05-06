@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -25.0, 52.0, 1440.0, 805.0 ],
+		"rect" : [ 3.0, 26.0, 1440.0, 805.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 555.0, 45.0, 150.0, 20.0 ],
+					"text" : "visages - delay"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -792,7 +806,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 435.0, 150.0, 210.0 ],
+					"patching_rect" : [ 75.0, 645.0, 150.0, 210.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 210.0 ]
 				}
 
@@ -910,7 +924,6 @@
 					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 365.5, 420.0, 100.875, 420.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
